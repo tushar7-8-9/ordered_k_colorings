@@ -3,6 +3,7 @@ Generating Catalan k-Colorings of size n
 Note - 1. Size I am using numbers to denote the colors, the funtion only works for upto 9 colors. 
 This can we easy fixed by using a seperate naming scheme for the colors. 
 2. If i > j then Color i < Color j. For exmaple, Color 1 > Color 2.
+3. if n != 0 (mod k) then result is empty
 """
 
 def main(n: int, k: int):
